@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: cornsilk;
+}
+.container{
+    margin: 13px auto;
+    width: 30vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    font-size: 18px;
+    margin: 13px auto;
+    padding: 0px 3px;
+    color: white;
+    background-color: grey;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+#btn:hover{
+    background: rgb(160,158,158);
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transform: scale(1.1);
+    /* Transform scale is for increasing the size of an element. Here the size of an element increase by 10%. If the scale(1.0) then the size of an element original. */
+}
