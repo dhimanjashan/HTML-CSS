@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    border: 3px solid black;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 15%;
+    margin: 287px 616px;
+    padding: 9px 21px;
+    transform: scale(1.1);
+}
+
+#btn:hover {
+    background-color: rgb(155, 153, 153);
+    cursor: pointer;
+}
